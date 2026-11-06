@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Science Studio Auto - Connection</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#1a1a1a}</style></head>
+<body>
+<h1>Science Studio Auto</h1>
+<p>Returning to the desktop application...</p>
+<script>
+// Forwards TikTok's authorization response to the desktop app listening on this computer only.
+location.replace("http://localhost:8080/callback" + location.search);
+</script>
+<noscript><p>Please enable JavaScript to finish the connection.</p></noscript>
+</body></html>
